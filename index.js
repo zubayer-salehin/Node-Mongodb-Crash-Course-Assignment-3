@@ -8,7 +8,7 @@ const dbConnect = require("./Utils/dbConnect");
 dbConnect();
 
 
-/* Server Listen on PORT */
+/**  Server Listen on PORT **/
 app.listen(port, () => {
     console.log(`App is running on port ${port}`);
 });
